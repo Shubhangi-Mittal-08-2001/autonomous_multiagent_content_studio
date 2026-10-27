@@ -1,0 +1,12 @@
+[MASTER]
+init-hook=import sys; sys.path.insert(0, ".")
+
+[MESSAGES CONTROL]
+disable=
+    missing-class-docstring,
+    missing-function-docstring,
+    missing-module-docstring,
+    protected-access,
+    too-few-public-methods,
+    unnecessary-lambda,
+    unused-argument

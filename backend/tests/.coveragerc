@@ -1,0 +1,15 @@
+[run]
+source =
+    agents
+    api
+    app
+    callbacks
+    config
+    graph
+    schemas
+    state
+    observability
+
+[report]
+fail_under = 95
+show_missing = True
